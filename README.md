@@ -29,7 +29,7 @@
 ## Start project
 
 ```bash
-$ .env (DATABASE_URL=...)
+$ .env (DATABASE_URL=...) *query string enviada por e-mail
 
 $ npm install
 
@@ -39,6 +39,7 @@ $ prisma generate
 
 $ npm run start:dev
 
+$ swagger: http://localhost:3123/api/docs
 
 ```
 
